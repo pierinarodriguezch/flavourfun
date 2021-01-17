@@ -1,0 +1,106 @@
+.areaLogoPrincipal{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.logoPrincipal{
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+.logoFooter{
+    height: 30px;
+    padding-left: 15px;
+}
+
+.bannerPrincipal{
+    width: 100%;
+}
+
+.categorias-imagen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.categorias-imagen-piqueos{
+    background: url("../images/piqueo.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.categorias-imagen-fondo{
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.categorias-imagen-postres{
+    background-image: url("../images/postre.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    text-align: center;  
+}
+
+.recetasRecientes-imagen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.imagen-receta{
+    height: 200px;
+}
+
+.bannerPiqueos{
+    display: flex;
+    background-image: url(../images/piqueobanner.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align:center;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom:18px;
+}
+
+.bannerFondo{
+    display: flex;
+    background-image: url(../images/fondobanner.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align:center;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom:18px;
+}
+
+.bannerPostres{
+    display:flex;
+    background-image: url(../images/postrebanner.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align:center;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom:18px;
+}
+
+.bannerSobreMi{
+    background-image: url(../images/bannersobremi.jpg);
+    background-size: cover;
+    height: 300px;
+    text-align:center;
+}
+
+.imagen-pierina{
+    height: 450px
+}
+

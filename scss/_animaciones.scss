@@ -1,0 +1,118 @@
+// hover
+
+
+
+// zoom
+
+.logoPrincipal{
+    transition: transform .2s;
+}
+  
+.logoPrincipal:hover {
+    transform: scale(1.1);
+}
+
+.logoFooter{
+    transition: transform .2s;
+}
+  
+.logoFooter:hover {
+    transform: scale(1.1);
+}
+
+.imagen-receta{
+    transition: transform .2s;
+}
+  
+.imagen-receta:hover {
+    transform: scale(1.05);
+}
+
+
+
+// color
+
+.categorias-imagen-piqueos {
+    transition: transform .2s; 
+}
+  
+.categorias-imagen-piqueos:hover {
+    color:#c65f58; 
+    transform: scale(1.02)
+}
+
+.categorias-imagen-fondo {
+    transition: transform .2s; 
+}
+    
+.categorias-imagen-fondo:hover {
+color:#c65f58; 
+transform: scale(1.02)
+}
+
+.categorias-imagen-postres {
+    transition: transform .2s; 
+}
+    
+.categorias-imagen-postres:hover {
+color:#c65f58; 
+transform: scale(1.02)
+}
+
+.recetasRecientes-texto-receta{
+    transition: transform .2s; 
+}
+
+.recetasRecientes-texto-receta:hover {
+    color:#c65f58; 
+    transform: scale(1.02)
+}
+
+.footerArriba-linkpiqueos{
+    transition: transform .2s; 
+}
+
+.footerArriba-linkpiqueos:hover {
+    color:#c65f58; 
+    transform: scale(1.02)
+}
+
+.footerArriba-linkfondo{
+    transition: transform .2s; 
+}
+
+.footerArriba-linkfondo:hover {
+    color:#c65f58; 
+    transform: scale(1.02)
+}
+
+.footerArriba-linkpostres{
+    transition: transform .2s; 
+}
+
+.footerArriba-linkpostres:hover {
+    color:#c65f58; 
+    transform: scale(1.02)
+}
+
+.footerSuscribete-boton{
+    transition: transform .1s;
+}
+
+.footerSuscribete-boton:hover{
+    background-color:#a54b49;
+}
+
+.zonasuscribete-boton{
+    transition: transform .1s;
+}
+
+.zonasuscribete-boton:hover{
+    background-color:#a54b49;
+}
+
+
+    
+
+    
+  

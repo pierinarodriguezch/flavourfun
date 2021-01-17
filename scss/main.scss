@@ -1,0 +1,141 @@
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: 'lato';
+    font-size: 16px;
+    background-color: #fcf7f7;
+    margin: 0px;
+    padding:0px;
+    border:0px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.zonaCategoriasSuscribete{
+    margin-top: 15px;
+}
+
+.zonaSuscribete{
+    border-color: gray;}
+
+.zonaRecetasRecientes{
+    margin-top: 25px;
+}
+
+.recetasRecientes1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px
+}
+
+.recetasRecientes2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px
+}
+
+.recetasRecientes3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px
+}
+
+.recetasRecientes4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px
+}
+
+footer{
+    margin-top: 100px;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.footerArriba{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.footerArriba-logoycopy{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footerArriba-logo{
+    margin-right: 10px;
+}
+
+.footerArriba-copyright{
+    margin-right: 400px;
+}
+
+.footerArriba-linkpiqueos{
+    margin-right: 50px;
+}
+
+.footerArriba-linkfondo{
+    margin-right: 50px;
+}
+
+.footerArriba-linkpostres{
+    margin-right: 50px;
+}
+
+.footerSuscribete{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;  
+    margin-top: 15px
+}
+
+.footerRedes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 15px
+}
+
+.zonaSobreMi{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    margin-top: 15px
+}
+
+
+@import "fontsize";
+@import "fontcolor";
+@import "images";
+@import "navegador";
+@import "formularios";
+@import "animaciones";
+
+
+
+
+

@@ -1,0 +1,393 @@
+html {
+  font-size: 100%; }
+
+body {
+  font-family: 'lato';
+  font-size: 16px;
+  background-color: #fcf7f7;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  overflow-x: hidden; }
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit; }
+
+.zonaCategoriasSuscribete {
+  margin-top: 15px; }
+
+.zonaSuscribete {
+  border-color: gray; }
+
+.zonaRecetasRecientes {
+  margin-top: 25px; }
+
+.recetasRecientes1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px; }
+
+.recetasRecientes2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px; }
+
+.recetasRecientes3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px; }
+
+.recetasRecientes4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px; }
+
+footer {
+  margin-top: 100px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.footerArriba {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.footerArriba-logoycopy {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+
+.footerArriba-logo {
+  margin-right: 10px; }
+
+.footerArriba-copyright {
+  margin-right: 400px; }
+
+.footerArriba-linkpiqueos {
+  margin-right: 50px; }
+
+.footerArriba-linkfondo {
+  margin-right: 50px; }
+
+.footerArriba-linkpostres {
+  margin-right: 50px; }
+
+.footerSuscribete {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px; }
+
+.footerRedes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px; }
+
+.zonaSobreMi {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 15px; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+p {
+  font-size: 2rem; }
+
+label {
+  font-size: 1.2rem; }
+
+.categorias-imagen-piqueos {
+  font-size: 1.5rem; }
+
+.categorias-imagen-fondo {
+  font-size: 1.5rem; }
+
+.categorias-imagen-postres {
+  font-size: 1.5rem; }
+
+.recetasRecientes-imagen-receta {
+  font-size: 1rem; }
+
+.recetasRecientes-texto-receta {
+  font-size: 1rem;
+  margin-top: 15px; }
+
+.footerSuscribete-texto {
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-bottom: 0px; }
+
+.footerRedes-texto {
+  font-size: 1.2rem; }
+
+.bannerPiqueos {
+  font-size: 3.5rem; }
+
+.bannerFondo {
+  font-size: 3.5rem; }
+
+.bannerPostres {
+  font-size: 3.5rem; }
+
+.bannerSobreMi {
+  font-size: 2.5rem; }
+
+.zonaSobreMi-texto {
+  font-size: 2rem;
+  flex-wrap: wrap;
+  margin-left: 25px; }
+
+h2 {
+  color: #c65f58;
+  font-weight: bold; }
+
+h3 {
+  color: #c65f58; }
+
+.zonaSobreMi-texto {
+  color: #505050; }
+
+.categorias-imagen-piqueos {
+  color: white; }
+
+.categorias-imagen-fondo {
+  color: white; }
+
+.categorias-imagen-postres {
+  color: white; }
+
+.recetasRecientes-imagen-queso {
+  color: white; }
+
+.recetasRecientes-imagen-wantan {
+  color: white; }
+
+.recetasRecientes-imagen-pizza {
+  color: white; }
+
+.recetasRecientes-imagen-torta {
+  color: white; }
+
+.bannerPiqueos {
+  color: white; }
+
+.bannerFondo {
+  color: white; }
+
+.bannerPostres {
+  color: white; }
+
+.bannerSobreMi {
+  color: white; }
+
+.areaLogoPrincipal {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.logoPrincipal {
+  height: 70px;
+  padding-bottom: 10px; }
+
+.logoFooter {
+  height: 30px;
+  padding-left: 15px; }
+
+.bannerPrincipal {
+  width: 100%; }
+
+.categorias-imagen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.categorias-imagen-piqueos {
+  background: url("../images/piqueo.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  text-align: center; }
+
+.categorias-imagen-fondo {
+  background-image: url("../images/fondo.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  text-align: center; }
+
+.categorias-imagen-postres {
+  background-image: url("../images/postre.jpg");
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  text-align: center; }
+
+.recetasRecientes-imagen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+
+.imagen-receta {
+  height: 200px; }
+
+.bannerPiqueos {
+  display: flex;
+  background-image: url(../images/piqueobanner.jpg);
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 18px; }
+
+.bannerFondo {
+  display: flex;
+  background-image: url(../images/fondobanner.jpg);
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 18px; }
+
+.bannerPostres {
+  display: flex;
+  background-image: url(../images/postrebanner.jpg);
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 18px; }
+
+.bannerSobreMi {
+  background-image: url(../images/bannersobremi.jpg);
+  background-size: cover;
+  height: 300px;
+  text-align: center; }
+
+.imagen-pierina {
+  height: 450px; }
+
+.footerSuscribete-boton {
+  background-color: #C65f58;
+  border-style: 3;
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem; }
+
+.zonasuscribete-boton {
+  background-color: #C65f58;
+  border-style: 3;
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem; }
+
+.logoPrincipal {
+  transition: transform .2s; }
+
+.logoPrincipal:hover {
+  transform: scale(1.1); }
+
+.logoFooter {
+  transition: transform .2s; }
+
+.logoFooter:hover {
+  transform: scale(1.1); }
+
+.imagen-receta {
+  transition: transform .2s; }
+
+.imagen-receta:hover {
+  transform: scale(1.05); }
+
+.categorias-imagen-piqueos {
+  transition: transform .2s; }
+
+.categorias-imagen-piqueos:hover {
+  color: #c65f58;
+  transform: scale(1.02); }
+
+.categorias-imagen-fondo {
+  transition: transform .2s; }
+
+.categorias-imagen-fondo:hover {
+  color: #c65f58;
+  transform: scale(1.02); }
+
+.categorias-imagen-postres {
+  transition: transform .2s; }
+
+.categorias-imagen-postres:hover {
+  color: #c65f58;
+  transform: scale(1.02); }
+
+.recetasRecientes-texto-receta {
+  transition: transform .2s; }
+
+.recetasRecientes-texto-receta:hover {
+  color: #c65f58;
+  transform: scale(1.02); }
+
+.footerArriba-linkpiqueos {
+  transition: transform .2s; }
+
+.footerArriba-linkpiqueos:hover {
+  color: #c65f58;
+  transform: scale(1.02); }
+
+.footerArriba-linkfondo {
+  transition: transform .2s; }
+
+.footerArriba-linkfondo:hover {
+  color: #c65f58;
+  transform: scale(1.02); }
+
+.footerArriba-linkpostres {
+  transition: transform .2s; }
+
+.footerArriba-linkpostres:hover {
+  color: #c65f58;
+  transform: scale(1.02); }
+
+.footerSuscribete-boton {
+  transition: transform .1s; }
+
+.footerSuscribete-boton:hover {
+  background-color: #a54b49; }
+
+.zonasuscribete-boton {
+  transition: transform .1s; }
+
+.zonasuscribete-boton:hover {
+  background-color: #a54b49; }
