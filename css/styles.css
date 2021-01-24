@@ -225,27 +225,6 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between; }
 
-.categorias-imagen-piqueos {
-  background: url("../images/piqueo.jpg");
-  background-size: cover;
-  height: 300px;
-  width: 300px;
-  text-align: center; }
-
-.categorias-imagen-fondo {
-  background-image: url("../images/fondo.jpg");
-  background-size: cover;
-  height: 300px;
-  width: 300px;
-  text-align: center; }
-
-.categorias-imagen-postres {
-  background-image: url("../images/postre.jpg");
-  background-size: cover;
-  height: 300px;
-  width: 300px;
-  text-align: center; }
-
 .recetasRecientes-imagen {
   display: flex;
   flex-wrap: wrap;
