@@ -373,3 +373,43 @@ h3 {
 
 .zonasuscribete-boton:hover {
   background-color: #a54b49; }
+
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    overflow-x: hidden; } }
+
+@media only screen and (max-width: 576px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    overflow-x: hidden; } }
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    overflow-x: hidden; } }
+
+@media only screen and (max-width: 992px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    overflow-x: hidden; } }
+
+@media only screen and (max-width: 1200px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    overflow-x: hidden; } }
