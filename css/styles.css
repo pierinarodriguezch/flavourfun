@@ -101,7 +101,7 @@ footer {
 
 .zonaSobreMi {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
@@ -273,7 +273,9 @@ h3 {
   text-align: center; }
 
 .imagen-pierina {
-  height: 450px; }
+  height: 450px;
+  padding: 0px;
+  margin-right: 0px; }
 
 .footerSuscribete-boton {
   background-color: #C65f58;
@@ -375,41 +377,86 @@ h3 {
   background-color: #a54b49; }
 
 @media only screen and (max-width: 375px) {
-  body {
+  .footerArriba-logoycopy {
     margin: 0px;
     padding: 0px;
     border: 0px;
     width: 100%;
-    overflow-x: hidden; } }
+    overflow-x: hidden; }
+  .footerArriba-copyright {
+    margin-left: 15px;
+    margin-right: 10px; }
+  .footerArriba-linkpiqueos {
+    margin-left: 15px; }
+  .footerArriba-linkfondo {
+    margin-left: 15px; }
+  .footerArriba-linkpostres {
+    margin-left: 15px; } }
 
 @media only screen and (max-width: 576px) {
-  body {
+  .footerArriba-logoycopy {
     margin: 0px;
     padding: 0px;
     border: 0px;
     width: 100%;
-    overflow-x: hidden; } }
+    overflow-x: hidden; }
+  .footerArriba-copyright {
+    margin-left: 15px;
+    margin-right: 10px; }
+  .footerArriba-linkpiqueos {
+    margin-left: 15px; }
+  .footerArriba-linkfondo {
+    margin-left: 15px; }
+  .footerArriba-linkpostres {
+    margin-left: 15px; } }
 
 @media only screen and (max-width: 768px) {
-  body {
+  .footerArriba-logoycopy {
     margin: 0px;
     padding: 0px;
     border: 0px;
     width: 100%;
-    overflow-x: hidden; } }
+    overflow-x: hidden; }
+  .footerArriba-copyright {
+    margin-left: 15px;
+    margin-right: 10px; }
+  .footerArriba-linkpiqueos {
+    margin-left: 15px; }
+  .footerArriba-linkfondo {
+    margin-left: 15px; }
+  .footerArriba-linkpostres {
+    margin-left: 15px; } }
 
 @media only screen and (max-width: 992px) {
-  body {
+  .footerArriba-logoycopy {
     margin: 0px;
     padding: 0px;
     border: 0px;
     width: 100%;
-    overflow-x: hidden; } }
+    overflow-x: hidden; }
+  .footerArriba-copyright {
+    margin-left: 15px;
+    margin-right: 10px; }
+  .footerArriba-linkpiqueos {
+    margin-left: 15px; }
+  .footerArriba-linkfondo {
+    margin-left: 15px; }
+  .footerArriba-linkpostres {
+    margin-left: 15px; } }
 
 @media only screen and (max-width: 1200px) {
-  body {
+  .footerArriba-logoycopy {
     margin: 0px;
     padding: 0px;
     border: 0px;
     width: 100%;
-    overflow-x: hidden; } }
+    overflow-x: hidden; }
+  .footerArriba-copyright {
+    margin-left: 15px;
+    margin-right: 10px; }
+  .footerArriba-linkpiqueos {
+    margin-left: 15px; }
+  .footerArriba-linkfondo {
+    margin-left: 15px; }
+  .footerArriba-linkpostres {
+    margin-left: 15px; } }

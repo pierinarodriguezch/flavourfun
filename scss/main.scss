@@ -120,12 +120,13 @@ footer{
 
 .zonaSobreMi{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;  
     margin-top: 15px
 }
+
 
 
 @import "fontsize";
