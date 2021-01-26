@@ -273,7 +273,7 @@ h3 {
   text-align: center; }
 
 .imagen-pierina {
-  height: 450px;
+  width: 300px;
   padding: 0px;
   margin-right: 0px; }
 
@@ -460,3 +460,6 @@ h3 {
     margin-left: 15px; }
   .footerArriba-linkpostres {
     margin-left: 15px; } }
+
+.zonaSobreMi-foto col {
+  padding-right: 0px; }
