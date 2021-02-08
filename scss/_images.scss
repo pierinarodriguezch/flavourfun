@@ -73,10 +73,14 @@
 }
 
 .bannerSobreMi{
+    display:flex;
     background-image: url(../images/bannersobremi.jpg);
     background-size: cover;
     height: 300px;
     text-align:center;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom:18px;
 }
 
 .imagen-pierina{
