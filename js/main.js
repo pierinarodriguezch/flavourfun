@@ -3,4 +3,4 @@ let anoactual = fecha.getFullYear();
 
 let anonacimiento = prompt("Ingresa tu año de nacimiento");
 let calculoedad = anoactual - anonacimiento;
-alert(calculoedad);
+alert("Tu edad es" + " " + calculoedad);
